@@ -60,7 +60,7 @@ function checkAnswer(currentLevel) {
       }, 200);
 
       //3. Change the h1 title to say "Game Over, Press Any Key to Restart" if the user got the answer wrong.
-      $("#level-title").text("Perdiste! Presiona cualquier tecla para comenzar");
+      $("#level-title").text("Perdiste mi cora bb! Presiona cualquier tecla para comenzar");
       if (puntajeAlto < level){
         puntajeAlto = level;
         $(".puntajeAlto").text("Record: " + puntajeAlto);
